@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Right's Portfolio</title>
+  <link rel="stylesheet" href="see.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <h1 class="logo">Right's Portfolio</h1>
+      <nav>
+        <div class="filter-buttons">
+            <a href="index.html"><button>主頁</button></a>
+            <a href="website.html"><button>網頁</button></a>
+            <a href="game.html"><button>遊戲</button></a>
+            <a href="design.html"><button>平面設計</button></a>
+            <a href="about.html"><button>關於我</button></a>
+      </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <section class="page project-float row">
+  <div class="project-float row">
+    <img src="img/1.jpg" alt="">
+    <div class="project-content">
+      <h3><span class="title">JUST READ</span>  線上書店</h3>
+      <p>
+        這是一個模擬線上書店的前端專案，使用 HTML、CSS 和 JavaScript 製作。使用者可以瀏覽書籍分類、查看商品資訊、加入購物車、修改數量，並進行模擬結帳。我負責整體互動功能的實作，包含購物車邏輯、價格更新與前端流程設計，強調使用者操作的流暢性與功能完整度。
+      </p>
+      <div class="project-buttons">
+        <button class="btn-glow open-modal" data-url="https://raw.githubusercontent.com/yourname/project-water/main/index.html">程式碼</button>
+        <button class="btn-glow open-modal" data-url="https://rain-247.github.io/bookstore/">實際體驗</button>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="page project-float row">
+  <div class="project-float row">
+    <img src="img/iMac_Mockup_2.jpg" alt="">
+    <div class="project-content">
+      <h3><span class="title">清流行動</span>  水資源保護網頁</h3>
+      <p>
+        這個作品以水資源議題為主軸，設計了一個結合互動元素的推廣網站。使用者可以了解水資源的現況與保育方式，並透過報名表單參與相關活動。我負責整體程式開發，包含頁面導覽、互動動畫效果、表單處理邏輯與資料同步功能，強化網站的參與感與資訊呈現效率。
+      </p>
+      <div class="project-buttons">
+        <button class="btn-glow open-modal" data-url="https://raw.githubusercontent.com/yourname/bookstore/main/index.html">程式碼</button>
+        <button class="btn-glow open-modal" data-url="https://rain-247.github.io/water_protect/">實際體驗</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="bubble-container"></div>
+
+</main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <button id="closeModal">✖</button>
+      <iframe id="modalFrame" src="" allowfullscreen></iframe>
+    </div>
+
+  <script src="index.js"></script>
+  <script src="see.js"></script>
+</body>
+</html>

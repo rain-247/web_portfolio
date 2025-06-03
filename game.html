@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Right's Portfolio</title>
+  <link rel="stylesheet" href="see.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <h1 class="logo">Right's Portfolio</h1>
+      <nav>
+        <div class="filter-buttons">
+            <a href="index.html"><button>主頁</button></a>
+            <a href="website.html"><button>網頁</button></a>
+            <a href="game.html"><button>遊戲</button></a>
+            <a href="design.html"><button>平面設計</button></a>
+            <a href="about.html"><button>關於我</button></a>
+      </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <section class="page project-float row">
+  <div class="project-float row">
+    <img src="img/Free_iMac_Mockup_4.jpg" alt="">
+    <div class="project-content">
+      <h3><span class="title">神之寶藏</span> 雙人合作網頁遊戲</h3>
+      <p>
+        這是一款以 Phaser 製作的 2D 平台跳躍遊戲，玩家間透過合作解開機關，通過關卡。我主要負責關卡整合與流程控制，實作了多場景管理、關卡切換邏輯、勝利與失敗條件判定，並設計場景之間的觸發流程與轉場效果，確保遊戲節奏清晰、有層次感。
+      </p>
+      <div class="project-buttons">
+        <button class="btn-glow open-modal" data-url="https://www.youtube.com/embed/lvC7kAdNhQA?si=SSJQk56KVuJh-pum">演示影片</button>
+        <button class="btn-glow open-modal" data-url="https://rain-247.github.io/level_game/">實際體驗</button>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="page project-float row">
+  <div class="project-float row">
+    <img src="img/Free_iMac_Mockup_8.jpg" alt="">
+    <div class="project-content">
+      <h3><span class="title">skyline-strike</span> unity小遊戲</h3>
+      <p>這是一款以 Unity 製作的橫向飛行射擊遊戲，玩家可操作飛機左右移動並射擊敵機，擊落敵人可獲得分數。遊戲具備敵人生成、子彈碰撞、分數計算、死亡條件與 UI 顯示。我負責整體遊戲邏輯開發，包含角色控制、物件碰撞判定、狀態切換與 UI 整合。</p>
+      <div class="project-buttons">
+        <button class="btn-glow open-modal" data-url="https://rain-247.github.io/skyshot/">實際體驗</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="bubble-container"></div>
+
+</main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <button id="closeModal">✖</button>
+      <iframe id="modalFrame" src="" allowfullscreen></iframe>
+    </div>
+
+  <script src="index.js"></script>
+  <script src="see.js"></script>
+</body>
+</html>
