@@ -85,6 +85,12 @@ html, body {
   color: #fff;
   line-height: 1.6;
   height: 100%;
+  scrollbar-width: none;      
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;               
 }
 
 button, a, input, textarea, label {
