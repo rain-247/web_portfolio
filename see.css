@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Poppins:wght@500;700&display=swap');
+
+body {
+  font-family: 'Noto Sans TC', 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, .btn-glow, .filter-buttons button {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+
 body.project-page {
   margin: 0;
   padding: 0;
@@ -37,16 +48,19 @@ body.project-page {
 }
 
 .project-content h3 {
-  font-size: 2rem;
-  color: #0ff;
-  margin-bottom: 16px;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #4cfaff;
+  margin-bottom: 12px;
 }
 
 .project-content p {
+  font-family: 'Noto Sans TC', 'Segoe UI', sans-serif;
+  font-weight: 400;
   font-size: 1rem;
-  color: #ccc;
-  line-height: 1.8;
-  margin-bottom: 24px;
+  color: #fff;
+  line-height: 1.75;
 }
 
 .project-buttons {
@@ -54,6 +68,7 @@ body.project-page {
   display: flex;
   justify-content: flex-end;
   gap: 16px;
+  margin-top: 20px;
 }
 
 .btn-glow {
@@ -260,8 +275,15 @@ nav a::after {
 }
 
 .title {
-  color: white;
-  text-shadow: 2px 2px 0 #0ff;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #0ff;
+  text-shadow:
+    0 0 6px rgba(0, 255, 255, 0.3),
+    0 0 12px rgba(0, 255, 255, 0.2);
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
 }
 
 .image-slider {
@@ -426,4 +448,6 @@ nav a::after {
     opacity: 1;
   }
 }
+
+
 
