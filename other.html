@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Right's Portfolio</title>
+  <link rel="stylesheet" href="see.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <h1 class="logo">Right's Portfolio</h1>
+      <nav>
+        <div class="filter-buttons">
+            <a href="index.html"><button>主頁</button></a>
+            <div class="dropdown">
+                <a href="website.html"><button class="dropbtn">網頁</button></a>
+            <div class="dropdown-content">
+                <a href="game.html">JUST READ書店</a>
+                <a href="phaser.html">清流行動</a>
+            </div>
+          </div>
+            <div class="dropdown">
+                <a href="game.html"><button class="dropbtn">遊戲</button></a>
+            <div class="dropdown-content">
+                <a href="game.html">神之寶藏</a>
+                <a href="phaser.html">skyline-strike</a>
+            </div>
+          </div>
+            <div class="dropdown">
+                <a href="design.html"><button class="dropbtn">平面設計</button></a>
+            <div class="dropdown-content">
+                <a href="game.html">把握當下</a>
+                <a href="phaser.html">元智封面設計</a>
+                <a href="unity.html">墨啡</a>
+            </div>
+          </div>
+            <div class="dropdown">
+                <a href="other.html"><button class="dropbtn">其他</button></a>
+            <div class="dropdown-content">
+                <a href="game.html">2D動畫練習</a>
+                <a href="phaser.html">3D動畫練習</a>
+                <a href="unity.html">3D建模</a>
+            </div>
+          </div>
+            <a href="about.html"><button>關於我</button></a>
+      </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+  <section class="page project-float row">
+  <div class="project-float row">
+    <img src="img/1111831.gif" alt="">
+    <div class="project-content">
+      <h3><span class="title">2D動畫練習</span>&nbsp;&nbsp;&nbsp;&nbsp;打球與走路</h3>
+      <p>
+        這是一個模擬線上書店的前端專案，使用 HTML、CSS 和 JavaScript 製作。使用者可以瀏覽書籍分類、查看商品資訊、加入購物車、修改數量，並進行模擬結帳。我負責整體互動功能的實作，包含購物車邏輯、價格更新與前端流程設計，強調使用者操作的流暢性與功能完整度。
+      </p>
+      <div class="project-buttons">
+        <button class="btn-glow open-modal" data-url="https://rain-247.github.io/bookstore/">查看詳情</button>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section class="page project-float row">
+  <div class="project-float row">
+    <img src="img/S1111831 (1).jpg" alt="">
+    <div class="project-content">
+      <h3><span class="title">3D動畫練習</span>&nbsp;&nbsp;&nbsp;&nbsp;機器人</h3>
+      <p>
+        這個作品以水資源議題為主軸，設計了一個結合互動元素的推廣網站。使用者可以了解水資源的現況與保育方式，並透過報名表單參與相關活動。我負責整體程式開發，包含頁面導覽、互動動畫效果、表單處理邏輯與資料同步功能，強化網站的參與感與資訊呈現效率。
+      </p>
+      <div class="project-buttons">
+        <button class="btn-glow open-modal" data-url="https://rain-247.github.io/water_protect/">查看詳情</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page project-float row">
+  <div class="project-float row">
+    <img src="img/s1111831.jpg" alt="">
+    <div class="project-content">
+      <h3><span class="title">3D建模練習</span>&nbsp;&nbsp;&nbsp;&nbsp;各式小物件</h3>
+      <p>
+        這個作品以水資源議題為主軸，設計了一個結合互動元素的推廣網站。使用者可以了解水資源的現況與保育方式，並透過報名表單參與相關活動。我負責整體程式開發，包含頁面導覽、互動動畫效果、表單處理邏輯與資料同步功能，強化網站的參與感與資訊呈現效率。
+      </p>
+      <div class="project-buttons">
+        <button class="btn-glow open-modal" data-url="https://rain-247.github.io/water_protect/">查看詳情</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="bubble-container"></div>
+
+</main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <button id="closeModal">✖</button>
+      <iframe id="modalFrame" src="" allowfullscreen></iframe>
+    </div>
+
+  <script src="index.js"></script>
+  <script src="see.js"></script>
+</body>
+</html>

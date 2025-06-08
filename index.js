@@ -132,10 +132,11 @@ startBtn.addEventListener('click', (e) => {
 
   const bubbles = document.querySelectorAll('#main-bubbles .bubble');
   const positions = [
-    { top: '-10%', left: '-10%' },
-    { top: '5%', left: '40%' },
-    { top: '60%', left: '5%' },
-    { top: '65%', left: '65%' },
+    { top: '-30%', left: '-10%' },
+    { top: '-15%', left: '40%' },
+    { top: '40%', left: '5%' },
+    { top: '45%', left: '65%' },
+    { top: '100%', left: '35%' },
   ];
 
   bubbles.forEach((b, i) => {
