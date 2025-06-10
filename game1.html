@@ -41,8 +41,7 @@
                 <a href="other.html"><button class="dropbtn">其他</button></a>
             <div class="dropdown-content">
                 <a href="other1.html">2D動畫練習</a>
-                <a href="other2.html">3D動畫練習</a>
-                <a href="other3.html">3D建模</a>
+                <a href="other2.html">3D建模</a>
             </div>
           </div>
             <a href="about.html"><button>關於我</button></a>
@@ -53,107 +52,78 @@
 
   <main>
 
-  <section class="page project-float row">
-  <div class="project-float row">
-    <img src="img/1.jpg" alt="JUST READ 書店畫面示意">
-    <div class="project-content">
-      <h3><span class="title">JUST READ</span>&nbsp;&nbsp;&nbsp;&nbsp;線上書店</h3>
-      <p>
-        JUST READ 是一個模擬線上書店的前端專案，完整實作書籍瀏覽、加入購物車、即時價格更新與模擬結帳帳號等流程，涵蓋了電商介面開發的主要互動功能。
-        <br><br>
-        在介面設計上，我選用深色主題搭配亮青色重點，強調現代感與科技感；互動上則整合滑鼠特效、滾動導覽與頁面淡入效果，讓使用者在簡單的操作中感受到流暢性與結構一致性。
-      </p>
-
-      <h4 style="margin-top: 28px; font-size: 1.1rem; color: #0ff;">使用技術</h4>
-      <ul style="margin-left: 1.2rem; line-height: 1.8; font-size: 0.95rem; color: #ccc;">
-        <li><strong>HTML5 / CSS3：</strong>頁面結構與排版</li>
-        <li><strong>Vanilla JavaScript：</strong>購物邏輯撰寫、價格更新、事件監聽</li>
-        <li><strong>DOM 操作：</strong>即時更新商品資訊與結帳數據</li>
-      </ul>
-    </div>
-  </div>
-  <div class="scroll-down">
-  <button class="scroll-btn" onclick="scrollToNextSection(this)">↓</button>
-</div>
-</section>
-
-
-<section class="page color-section">
-  <div class="color-layout">
-    <div class="color-palette">
-      <div class="color-item">
-        <div class="color-dot" style="background: #56aa54;"></div>
-        <span class="color-code">#56aa54</span>
-      </div>
-      <div class="color-item">
-        <div class="color-dot" style="background: #d24147;"></div>
-        <span class="color-code">#d24147</span>
-      </div>
-      <div class="color-item">
-        <div class="color-dot" style="background: #302f31;"></div>
-        <span class="color-code">#302f31</span>
-      </div>
-      <div class="color-item">
-        <div class="color-dot" style="background: #efecea; border: 1px solid #aaa;"></div>
-        <span class="color-code">#efecea</span>
-      </div>
-    </div>
-
-    <div class="color-description">
-  <h3><span class="title">色彩計畫</span><span class="color-subtitle">&nbsp;&nbsp;&nbsp;&nbsp;主題與功能</span></h3>
-  
-
-  <p class="color-intro">
-    本專案配色以實用與辨識為導向，結合四種功能性色彩：
-  </p>
-
-  <p class="color-detail">
-    <strong style="color: #56aa54;">#56aa54：</strong> 主要用於按鈕、互動元素，傳達清新且友善的感覺。<br>
-    <strong style="color: #d24147;">#d24147：</strong> 用於取消收藏、移除購物車，明確傳達須注意之操作。<br>
-    <strong style="color: #302f31;">#302f31：</strong> 主要用於標題、導航列、文字，讓使用者能夠輕鬆的辨識。<br>
-    <strong style="color: #efecea;">#efecea：</strong> 用於連結元素，讓使用者可以知道哪些是連結。
-  </p>
-</div>
-
-  </div>
-  <div class="scroll-down">
-  <button class="scroll-btn" onclick="scrollToNextSection(this)">↓</button>
-</div>
-</section>
-
-<section class="page feature-section">
-  <div class="feature-wrapper">
-    <button class="feature-btn left" onclick="prevPage()">&#10094;</button>
-
-    <div class="feature-content">
-      <img id="page-img" src="img/page_home.png" alt="分頁功能圖片" class="feature-img">
-      <div class="feature-text">
-        <h3><span class="title">功能介紹
-        </span>&nbsp;&nbsp;&nbsp;&nbsp;<span id="page-title">首頁</span></h3>
-        <div id="page-desc">
-
+    <section class="page project-float row">
+      <div class="project-float row">
+        <img src="img/Free_iMac_Mockup_4.jpg" alt="神之寶藏 遊戲畫面">
+        <div class="project-content">
+          <h3><span class="title">神之寶藏</span>&nbsp;&nbsp;&nbsp;&nbsp;雙人合作解謎遊戲</h3>
+          <p>
+            本專案源自我童年與朋友玩《冰火雙子》的回憶，希望設計一款「只有雙人合作才能通關」的冒險解謎遊戲，強調夥伴間的互助與節奏感。
+            <br><br>
+            遊戲使用 Phaser 架構開發，採 2D 畫面與鍵盤操控，內含多個關卡、角色互動機制與 UI 設計，讓玩家能在快節奏的互動中學習分工、挑戰機關並推進劇情。
+          </p>
+          <h4 style="margin-top: 28px; font-size: 1.1rem; color: #0ff;">使用技術</h4>
+          <ul style="margin-left: 1.2rem; line-height: 1.8; font-size: 0.95rem; color: #ccc;">
+            <li><strong>Phaser 3：</strong>場景管理、角色控制、事件互動與物理碰撞邏輯</li>
+            <li><strong>JavaScript：</strong>控制遊戲邏輯、資料儲存與狀態切換</li>
+            <li><strong>UI/UX 設計：</strong>整合圖像按鈕、操作提示與畫面引導介面</li>
+          </ul>
         </div>
-        <button class="btn-glow open-modal" data-url="https://github1s.com/rain-247/water_protect">程式碼</button>
-        <button class="btn-glow open-modal" data-url="https://rain-247.github.io/water_protect/">實際體驗</button>
       </div>
-    </div>
+    </section>
 
-    <button class="feature-btn right" onclick="nextPage()">&#10095;</button>
-  </div>
-</section>
+    <section class="page color-section">
+      <div class="color-layout">
+        <img src="img/Free_iMac_Mockup_3.jpg" alt="遊戲設計理念" style="max-width: 420px; border-radius: 12px; box-shadow: 0 0 20px rgba(0,255,255,0.15);">
+        <div class="color-description">
+          <h3><span class="title">遊戲設計理念</span><span class="color-subtitle">&nbsp;&nbsp;&nbsp;&nbsp;探索合作與解謎</span></h3>
+          <p class="color-intro">
+            從探索未知出發，設計一款讓玩家「共同面對困難、彼此協助前進」的合作遊戲，是《神之寶藏》的核心概念。
+          </p>
+          <p class="color-detail">
+            在古文明遺跡中尋找寶藏，不只是冒險，更是一次「合作與信任」的體現。我希望這款遊戲不只是操作上的挑戰，更能讓玩家透過彼此互補、互助來感受到雙人解謎的樂趣與成就感。
 
+每一個關卡的機關設計都圍繞著兩位角色的互動，藉由：
 
+一起啟動開關、
 
+分頭進行動作再匯合、
 
-<div id="bubble-container"></div>
+或利用角色特性搭配通過機關，
 
-</main>
+傳達出「單靠一人無法完成、只有一起才能前進」的核心精神。
+
+這也是我對合作遊戲的想像 —— 遊戲機制本身就成為建立連結的橋樑。<br>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page feature-section">
+      <div class="feature-wrapper">
+        <button class="feature-btn left" onclick="prevPage()">&#10094;</button>
+        <div class="feature-content">
+          <img id="page-img" src="img/god_story.png" alt="遊戲功能展示" class="feature-img">
+          <div class="feature-text">
+            <h3><span class="title">功能介紹</span>&nbsp;&nbsp;&nbsp;&nbsp;<span id="page-title">故事頁</span></h3>
+            <div id="page-desc"></div>
+            <button class="btn-glow open-modal" data-url="https://github.com/rain-247/god_treasure">程式碼</button>
+            <button class="btn-glow open-modal" data-url="#">實際體驗</button>
+          </div>
+        </div>
+        <button class="feature-btn right" onclick="nextPage()">&#10095;</button>
+      </div>
+    </section>
+
+    <div id="bubble-container"></div>
+  </main>
 
   <div id="modal" class="modal">
     <div class="modal-content">
       <button id="closeModal">✖</button>
       <iframe id="modalFrame" src="" allowfullscreen></iframe>
     </div>
+  </div>
 
   <script src="index.js"></script>
   <script src="see.js"></script>

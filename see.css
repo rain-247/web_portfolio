@@ -551,7 +551,7 @@ nav a::after {
   justify-content: center;
   align-items: flex-start;
   gap: 60px;
-  max-width: 1100px;
+  max-width: 1200px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -588,7 +588,7 @@ nav a::after {
 
 .color-description {
   flex: 1;
-  max-width: 500px;
+  max-width: 650px;
   width: 100%;
   line-height: 40px;
 }
@@ -617,7 +617,7 @@ nav a::after {
 .color-detail {
   font-size: 1rem;
   color: #eee;
-  line-height: 2.1;
+  line-height: 2;
 }
 
 .feature-section {
@@ -644,6 +644,7 @@ nav a::after {
   gap: 60px;
   max-width: 1200px;
   width: 100%;
+  margin-left: 120px;
 }
 
 .feature-img {
@@ -689,6 +690,100 @@ nav a::after {
   color: #0ff;
   font-weight: 600;
 }
+
+.animation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.animation-frame-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-top: 1rem;
+  max-width: 1200px;
+}
+
+.animation-frame-row1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-top: 1rem;
+  max-width: 1200px;
+}
+
+.animation-frame-row .frame-thumb {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.animation-frame-row .frame-thumb:hover {
+  transform: scale(1.05);
+}
+
+#animation-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+#animation-desc {
+  font-size: 1rem;
+  color: #dddddd;
+  max-width: 600px;
+}
+
+.project-content P {
+  line-height: 2rem;
+}
+
+.animation-gallery-section {
+  padding: 3rem 1rem;
+  text-align: center;
+  background-color: transparent;
+}
+
+.animation-gallery-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.animation-gallery-content h3 {
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.animation-gallery-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.gallery-thumb {
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.gallery-thumb:hover {
+  transform: scale(1.05);
+}
+
+
 
 
 

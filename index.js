@@ -69,6 +69,8 @@ window.addEventListener("keydown", (e) => {
   }
 });
 
+
+
 document.querySelectorAll('.filter-buttons button').forEach(button => {
   button.addEventListener('click', () => {
     document.querySelectorAll('.filter-buttons button').forEach(btn => {
